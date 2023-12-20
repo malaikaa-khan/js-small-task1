@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=EB+Garamond:ital,wght@1,400;1,500&family=Pacifico&family=Zen+Antique+Soft&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Comfortaa', sans-serif;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23vh;
+    gap: 1vw;
+}
+input{
+    width: 17vw;
+    height: 6vh;
+    border: 2px solid #FFA500;
+    border-radius: 6px;
+    padding-left: 20px;
+    
+}
+#checking{
+    font-size: 15px;
+    font-weight: 500;
+    width: 7vw;
+    height: 7vh;
+    background-color: #FFA500;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+}
+
+@media (max-width:375px) {
+    #container{
+        gap: 3vw;
+        text-align: center;
+    }
+    input{
+        width: 70vw;
+        
+    }
+    #checking{
+        margin-top: 5vh;
+        width: 35vw;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    #container{
+        gap: 3vw;
+        text-align: center;
+    }
+    input{
+        width: 70vw;
+        
+    }
+    #checking{
+        margin-top: 5vh;
+        width: 35vw;
+    }
+}
